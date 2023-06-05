@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   resources :greetings, only: [:index]
-   root "greetings#index"
+  root "greetings#index"
 end
