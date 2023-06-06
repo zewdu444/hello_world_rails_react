@@ -1,7 +1,7 @@
 import {createSlice, createAsyncThunk} from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const BASE_URL = 'http://127.0.0.1:5000/greetings.json';
+const BASE_URL = 'http://127.0.0.1:3000/api/v1/greetings';
 const initialState = {
     greetingstore: [],
     status: 'idle',
