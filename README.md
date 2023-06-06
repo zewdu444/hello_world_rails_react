@@ -37,7 +37,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- [x] User can create an account
+- [x] Random greeting generator API
+- [x] Display random greeting
+- [x] used redux and rails to store and display greetings
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -80,18 +82,16 @@ Example command:
 To run the project redirecting to the root directory of the project and run the following command:
 
 ```sh
- bin/rails server (to run web application)
+ ./bin/dev (to run web application)
 
 ```
-
-### Test
-
-To test the web app run the following command:
-
+### API
+to get random quote from the API use the following link:
 ```sh
- rspec spec ( to test the web application)
+ http://127.0.0.1:3000/api/v1/greetings
 
 ```
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -107,7 +107,7 @@ To test the web app run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [UX Desktop design]
+- add styling for displaying greeting
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
