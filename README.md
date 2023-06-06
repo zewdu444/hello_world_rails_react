@@ -72,7 +72,7 @@ Example command:
 Example command:
 
 ```sh
-  cd budget_app
+  cd hello_world_rails_react
   bundle install (install all dependencies)
 
 ```
@@ -108,7 +108,7 @@ to get random greeting from the API use the following link:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- add styling for displaying greeting
+- Add styling for displaying greeting
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
