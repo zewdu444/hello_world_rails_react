@@ -82,11 +82,12 @@ Example command:
 To run the project redirecting to the root directory of the project and run the following command:
 
 ```sh
- ./bin/dev (to run web application)
+  bundle exec rails assets:precompile (to compile assets)
+ ./bin/dev (to run web  application)
 
 ```
 ### API
-to get random quote from the API use the following link:
+to get random greeting from the API use the following link:
 ```sh
  http://127.0.0.1:3000/api/v1/greetings
 
